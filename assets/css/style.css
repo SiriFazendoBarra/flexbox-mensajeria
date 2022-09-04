@@ -1,0 +1,167 @@
+:root {
+    --white: #fff;
+    --platinum: #e8ebe4;
+    --gray: #bec1bb;
+    --blueBell: #a491d2;
+    --soap: #cdc3e6;
+    --paleLavender: #d4dcff;
+    --darkJungle: #1b1f21;
+    --outerSpace: #444749;
+    --oldSilver: #828485;
+}
+
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.foto {
+    display: block;
+    max-width: 20rem;
+    margin: auto;
+    border-radius: 1rem;
+}
+
+.main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: flex-start;
+    height: 100vh;
+
+}
+
+.aside {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 0 0 30%;
+    height: 100vh;
+    overflow: auto;
+}
+
+.section {
+    height: 100vh;
+    background-color: var(--platinum);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    flex: 0 0 70%;
+    align-items: center;
+    align-content: center;
+}
+
+.infoSection {
+    max-width: 31rem;
+    text-align: center;
+}
+
+.textSection {
+    text-align: center;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.newchat {
+    font-weight: bolder;
+}
+
+.tr {
+    display: flex;
+    width: 99%;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border: 1px solid var(--gray);
+}
+
+.btn {
+    padding: 2rem;
+    width: 50%;
+}
+
+button {
+    width: 100%;
+    height: 3rem;
+    color: var(--white);
+    background-color: var(--blueBell);
+    border: 0;
+    border-radius: 4px;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color: var(--soap);
+}
+
+.avatarContact {
+    margin: 1rem;
+    display: block;
+    width: 60px;
+    border-radius: 40px;
+    border: 1px solid var(--oldSilver);
+}
+
+.userAvatar {
+    margin: 1rem;
+    display: block;
+    width: 40px;
+    border-radius: 40px;
+    border: 1px solid var(--oldSilver);
+}
+
+.th {
+    flex-basis: 20%;
+}
+
+.td {
+    flex-basis: 80%;
+}
+
+.userStatus {
+    display: flex;
+}
+
+.nav-user {
+    flex-basis: 100%;
+
+}
+
+.icoMenu {
+    flex-basis: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.t {
+    display: flex;
+    width: 99%;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border: 1px solid var(--gray);
+}
+
+.ico {
+    font-size: 1.5rem;
+    color: var(--oldSilver);
+
+}
+
+.status {
+    font-size: 10px;
+    color: var(--oldSilver);
+    margin: 0;
+}
+
+.userName {
+    margin-bottom: 8px;
+}
